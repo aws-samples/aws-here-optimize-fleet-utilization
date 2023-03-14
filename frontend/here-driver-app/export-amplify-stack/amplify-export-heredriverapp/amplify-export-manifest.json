@@ -1,0 +1,109 @@
+{
+  "stackName": "amplify-heredriverapp-dev-92444",
+  "props": {
+    "templateFile": "root-stack-template.json",
+    "parameters": {
+      "AuthRoleName": "amplify-heredriverapp-dev-92444-authRole",
+      "UnauthRoleName": "amplify-heredriverapp-dev-92444-unauthRole",
+      "DeploymentBucketName": "amplify-heredriverapp-dev-92444-deployment"
+    },
+    "preserveLogicalIds": true,
+    "loadNestedStacks": {
+      "apiheredriverapp": {
+        "templateFile": "api/heredriverapp/cloudformation-template.json",
+        "parameters": {
+          "AppSyncApiName": "heredriverapp",
+          "DynamoDBBillingMode": "PAY_PER_REQUEST",
+          "DynamoDBEnableServerSideEncryption": false,
+          "S3DeploymentBucket": "amplify-heredriverapp-dev-92444-deployment",
+          "S3DeploymentRootKey": "amplify-appsync-files/a6f5ba895fc0b4e292627827402a3e9369996156",
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {
+          "CustomResourcesjson": {
+            "templateFile": "api/heredriverapp/amplify-appsync-files/stacks/CustomResources.json",
+            "preserveLogicalIds": true,
+            "loadNestedStacks": {}
+          },
+          "VehicleRoute": {
+            "templateFile": "api/heredriverapp/amplify-appsync-files/stacks/VehicleRoute.json",
+            "preserveLogicalIds": true,
+            "loadNestedStacks": {}
+          }
+        }
+      },
+      "authheredriverapp34ffc390": {
+        "templateFile": "auth/heredriverapp34ffc390/heredriverapp34ffc390-cloudformation-template.json",
+        "parameters": {
+          "identityPoolName": "heredriverapp34ffc390_identitypool_34ffc390",
+          "allowUnauthenticatedIdentities": false,
+          "resourceNameTruncated": "heredr34ffc390",
+          "userPoolName": "heredriverapp34ffc390_userpool_34ffc390",
+          "autoVerifiedAttributes": [
+            "email"
+          ],
+          "mfaConfiguration": "OFF",
+          "mfaTypes": [
+            "SMS Text Message"
+          ],
+          "smsAuthenticationMessage": "Your authentication code is {####}",
+          "smsVerificationMessage": "Your verification code is {####}",
+          "emailVerificationSubject": "Your verification code",
+          "emailVerificationMessage": "Your verification code is {####}",
+          "defaultPasswordPolicy": false,
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [],
+          "requiredAttributes": [
+            "email"
+          ],
+          "aliasAttributes": [],
+          "userpoolClientGenerateSecret": false,
+          "userpoolClientRefreshTokenValidity": 30,
+          "userpoolClientWriteAttributes": [
+            "email"
+          ],
+          "userpoolClientReadAttributes": [
+            "email"
+          ],
+          "userpoolClientLambdaRole": "heredr34ffc390_userpoolclient_lambda_role",
+          "userpoolClientSetAttributes": false,
+          "sharedId": "34ffc390",
+          "resourceName": "heredriverapp34ffc390",
+          "authSelections": "identityPoolAndUserPool",
+          "useDefault": "default",
+          "userPoolGroupList": [],
+          "serviceName": "Cognito",
+          "usernameCaseSensitive": false,
+          "useEnabledMfas": true,
+          "breakCircularDependency": true,
+          "dependsOn": [],
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      },
+      "geohereMapDriversRoutes1": {
+        "templateFile": "geo/hereMapDriversRoutes1/hereMapDriversRoutes1-cloudformation-template.json",
+        "parameters": {
+          "mapName": "hereMapDriversRoutes1",
+          "mapStyle": "VectorHereExplore",
+          "isDefault": true,
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      },
+      "hostingamplifyhosting": {
+        "templateFile": "hosting/amplifyhosting/amplifyhosting-template.json",
+        "parameters": {
+          "appId": "dkr068ccl0eol",
+          "type": "manual",
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      }
+    }
+  }
+}

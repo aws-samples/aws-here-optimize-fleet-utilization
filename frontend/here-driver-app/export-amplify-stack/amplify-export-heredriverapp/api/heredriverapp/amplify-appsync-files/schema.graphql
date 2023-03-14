@@ -1,0 +1,250 @@
+
+type VehicleRoute @aws_api_key {
+  routeId: ID!
+  vehicleId: ID!
+  date: AWSDateTime
+  startDateTime: AWSDateTime
+  endDateTime: AWSDateTime
+  hereTpId: String
+  stopCount: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelSubscriptionStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  in: [String]
+  notIn: [String]
+}
+
+input ModelSubscriptionIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  in: [Int]
+  notIn: [Int]
+}
+
+input ModelSubscriptionFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  in: [Float]
+  notIn: [Float]
+}
+
+input ModelSubscriptionBooleanInput {
+  ne: Boolean
+  eq: Boolean
+}
+
+input ModelSubscriptionIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  in: [ID]
+  notIn: [ID]
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelVehicleRouteConnection @aws_api_key {
+  items: [VehicleRoute]!
+  nextToken: String
+}
+
+input ModelVehicleRouteFilterInput {
+  routeId: ModelIDInput
+  vehicleId: ModelIDInput
+  date: ModelStringInput
+  startDateTime: ModelStringInput
+  endDateTime: ModelStringInput
+  hereTpId: ModelStringInput
+  stopCount: ModelStringInput
+  and: [ModelVehicleRouteFilterInput]
+  or: [ModelVehicleRouteFilterInput]
+  not: ModelVehicleRouteFilterInput
+}
+
+type Query {
+  getVehicleRoute(id: ID!): VehicleRoute @aws_api_key
+  listVehicleRoutes(filter: ModelVehicleRouteFilterInput, limit: Int, nextToken: String): ModelVehicleRouteConnection @aws_api_key
+}
+
+input ModelVehicleRouteConditionInput {
+  routeId: ModelIDInput
+  vehicleId: ModelIDInput
+  date: ModelStringInput
+  startDateTime: ModelStringInput
+  endDateTime: ModelStringInput
+  hereTpId: ModelStringInput
+  stopCount: ModelStringInput
+  and: [ModelVehicleRouteConditionInput]
+  or: [ModelVehicleRouteConditionInput]
+  not: ModelVehicleRouteConditionInput
+}
+
+input CreateVehicleRouteInput {
+  routeId: ID!
+  vehicleId: ID!
+  date: AWSDateTime
+  startDateTime: AWSDateTime
+  endDateTime: AWSDateTime
+  hereTpId: String
+  stopCount: String
+  id: ID
+}
+
+input UpdateVehicleRouteInput {
+  routeId: ID
+  vehicleId: ID
+  date: AWSDateTime
+  startDateTime: AWSDateTime
+  endDateTime: AWSDateTime
+  hereTpId: String
+  stopCount: String
+  id: ID!
+}
+
+input DeleteVehicleRouteInput {
+  id: ID!
+}
+
+type Mutation {
+  createVehicleRoute(input: CreateVehicleRouteInput!, condition: ModelVehicleRouteConditionInput): VehicleRoute @aws_api_key
+  updateVehicleRoute(input: UpdateVehicleRouteInput!, condition: ModelVehicleRouteConditionInput): VehicleRoute @aws_api_key
+  deleteVehicleRoute(input: DeleteVehicleRouteInput!, condition: ModelVehicleRouteConditionInput): VehicleRoute @aws_api_key
+}
+
+input ModelSubscriptionVehicleRouteFilterInput {
+  routeId: ModelSubscriptionIDInput
+  vehicleId: ModelSubscriptionIDInput
+  date: ModelSubscriptionStringInput
+  startDateTime: ModelSubscriptionStringInput
+  endDateTime: ModelSubscriptionStringInput
+  hereTpId: ModelSubscriptionStringInput
+  stopCount: ModelSubscriptionStringInput
+  and: [ModelSubscriptionVehicleRouteFilterInput]
+  or: [ModelSubscriptionVehicleRouteFilterInput]
+}
+
+type Subscription {
+  onCreateVehicleRoute(filter: ModelSubscriptionVehicleRouteFilterInput): VehicleRoute @aws_subscribe(mutations: ["createVehicleRoute"]) @aws_api_key
+  onUpdateVehicleRoute(filter: ModelSubscriptionVehicleRouteFilterInput): VehicleRoute @aws_subscribe(mutations: ["updateVehicleRoute"]) @aws_api_key
+  onDeleteVehicleRoute(filter: ModelSubscriptionVehicleRouteFilterInput): VehicleRoute @aws_subscribe(mutations: ["deleteVehicleRoute"]) @aws_api_key
+}
+

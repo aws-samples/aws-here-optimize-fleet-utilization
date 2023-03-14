@@ -1,0 +1,22 @@
+[
+  {
+    "category": "api",
+    "resourceName": "heredriverapp",
+    "service": "AppSync"
+  },
+  {
+    "category": "auth",
+    "resourceName": "heredriverapp34ffc390",
+    "service": "Cognito"
+  },
+  {
+    "category": "geo",
+    "resourceName": "hereMapDriversRoutes1",
+    "service": "Map"
+  },
+  {
+    "category": "hosting",
+    "resourceName": "amplifyhosting",
+    "service": "amplifyhosting"
+  }
+]

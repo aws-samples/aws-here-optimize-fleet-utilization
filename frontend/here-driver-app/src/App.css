@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html,
+body,
+#root {
+  /* The ancestors of the map element */
+  height: 100%;
+}
+
+.map {
+  height: 50%;
+  margin-left: 10% !important;
+}
+
+body {
+  margin: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  /* font-size: 20px; */
+  color: white;
+}
+
+li {
+  color: black;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+nav a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#routesTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#routesTable td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#routesTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#routesTable tr:hover {
+  background-color: #ddd;
+}
+
+#routesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#routesTable td ul li {
+  cursor: pointer;
+}
+
+.mapboxgl-ctrl-zoom {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,15 @@
+!jest.config.js
+*.d.ts
+node_modules
+modules.xml
+vcs.xml
+/shelf/
+workspace.xml
+/httpRequests/
+/lib/aws-here-optimize-fleet-utilization-stack.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+.DS_Store
+

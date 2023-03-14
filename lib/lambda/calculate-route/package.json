@@ -1,0 +1,9 @@
+{
+    "name": "calculate-route",
+    "version": "0.0.1",
+    "description": "Lambda to calculate route image for a vehicle.",
+    "main": "index.js",
+    "dependencies": {
+        "@aws-sdk/client-location": "^3.259.0"
+    }    
+}

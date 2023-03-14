@@ -1,0 +1,1286 @@
+{
+    "plan": {
+        "jobs": [
+            {
+                "id": "0fa292e7-bccb-49cb-ba1a-d1d9542e28f4",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54261,
+                                        "lng": -0.10439
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "b0653a28-10d0-46d4-b60d-cd879b4bc703",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50365,
+                                        "lng": -0.11078
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "c478554e-ccc1-43c5-8bc7-3c8d12fbfcab",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54324,
+                                        "lng": -0.08143
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "9ab3751f-7c99-4694-9315-23b0d6dfd1e1",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50278,
+                                        "lng": -0.11057
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "15efc43b-4b6c-4284-8bc1-1c435f3a8671",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5211,
+                                        "lng": -0.15702
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cac05e84-ce92-4fcf-a85a-770f7473993c",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54853,
+                                        "lng": -0.10699
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "78231ceb-5866-4acb-b9cf-81c3282c2139",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50266,
+                                        "lng": -0.11043
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "33ccdf77-8d70-4443-80ef-9f329065f0b7",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54252,
+                                        "lng": -0.07843
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "d10c9d58-a57c-4e2b-a4b5-cd4b68d0a14d",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.52129,
+                                        "lng": -0.15711
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2f391795-2fc4-46fb-9f27-d386081990a6",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5486,
+                                        "lng": -0.10708
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "ae3fa8af-3fc3-4dde-9d80-7b72d543c1d1",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5487,
+                                        "lng": -0.1072
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "961e9e19-588c-44be-a058-6b3cf4a6496a",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.46271,
+                                        "lng": -0.13544
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "1dd1ed10-79a3-4626-bfad-e0b4f679322d",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.4626,
+                                        "lng": -0.13578
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "583db46b-32aa-4faf-b48a-632501daf12f",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54558,
+                                        "lng": -0.1022
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "29c3ca07-30f5-4c86-839c-7013a2077559",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.4624,
+                                        "lng": -0.13648
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "77e38961-d45b-46e6-871e-9e2e044f13fb",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.46237,
+                                        "lng": -0.13659
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "ad22482f-e6fa-43aa-9bdc-d29f5ca06b41",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54325,
+                                        "lng": -0.10532
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "e7ce991c-1693-4b69-bc9d-38b9dd1703ce",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48062,
+                                        "lng": -0.11434
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "997bde4c-51ff-4ded-8d52-0714d6615969",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.53943,
+                                        "lng": -0.14425
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "4c3b432c-1597-4e26-9faa-78fbf61cfb98",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54269,
+                                        "lng": -0.07996
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "81980518-8c04-497a-a1d8-48f2ca151070",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48053,
+                                        "lng": -0.11374
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "4d737771-4d87-4114-8a66-6ccd1beae219",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.53941,
+                                        "lng": -0.14431
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "97aa418e-778d-47ca-9589-4155107a02bd",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48696,
+                                        "lng": -0.11367
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "b1b83274-afaa-4a56-8575-838d80b4ae54",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54549,
+                                        "lng": -0.1032
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cfe1e7d7-36db-4fc0-8c66-cd5ef9c3ab10",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.4709,
+                                        "lng": -0.12407
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "343b095c-c977-4761-b566-b2d2ec00840c",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.47056,
+                                        "lng": -0.12447
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "f41d81d2-4ecb-4450-963b-8e108768e8a6",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.47044,
+                                        "lng": -0.12461
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cc9cd048-45db-44ea-84ce-c42c5a34ab37",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54611,
+                                        "lng": -0.10226
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "e95cf8c7-0537-499f-bdc5-4040628a11be",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.4802,
+                                        "lng": -0.11411
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "dd735ac3-b257-452e-965f-154791e2e804",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.4862,
+                                        "lng": -0.11153
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2f7ed634-0979-4f16-8b7e-d348068c1992",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48617,
+                                        "lng": -0.11163
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "6e7f39ac-39c7-4887-ae67-96433bd80f7b",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.46872,
+                                        "lng": -0.1269
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "da98896e-2406-4521-a253-35e119517ada",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50636,
+                                        "lng": -0.12718
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "f2b5fb3b-3ff6-4abc-b0a6-2bbad5faaa4c",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5431,
+                                        "lng": -0.10385
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "c43c8d1f-ceaf-4d3a-ace4-7d4e2706de8b",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54005,
+                                        "lng": -0.14686
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "e52b71c0-6d75-49f4-8245-080942756479",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54641,
+                                        "lng": -0.10356
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "650863a6-5397-4bde-bc0d-928865c707b2",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54879,
+                                        "lng": -0.1073
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2733fe19-dcd4-4a56-aa06-fde04f21ce39",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54532,
+                                        "lng": -0.07874
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "105df9d4-ad89-49dd-be29-06d96eab66f7",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48086,
+                                        "lng": -0.11337
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "bc8b3ecb-572c-4d48-b8b4-01afa759bb6f",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50366,
+                                        "lng": -0.1101
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "1ac6079c-4d8f-410a-a1ec-74ab476eef51",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.51495,
+                                        "lng": -0.08061
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "a6777496-e1c0-49a6-8b17-df60ebdaaceb",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54613,
+                                        "lng": -0.10316
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "f01b167f-3e9a-4f6a-9d4f-9c0bd131a14e",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5432,
+                                        "lng": -0.1045
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "10695a1b-d077-4f0c-867a-dfda3d3c357d",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.5432,
+                                        "lng": -0.10404
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "db8454b2-07a4-4b53-bc1c-b7f86e0555ad",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48677,
+                                        "lng": -0.11137
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "e7b33d88-ffeb-4fb4-a15e-29142137e91c",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.51596,
+                                        "lng": -0.08184
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cf0d1acf-c4ea-4fca-a033-645efcaf1015",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54388,
+                                        "lng": -0.08127
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cc0da252-665e-4da7-8352-1f895dcff2df",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.53975,
+                                        "lng": -0.14505
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "8b8485c3-30bf-426a-ba22-eb6437171b64",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54002,
+                                        "lng": -0.14712
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "59c65b1e-aa50-465a-a81e-24bdfa299ae5",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48684,
+                                        "lng": -0.11137
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "b259b397-6714-4993-8d87-fe4db0deac47",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54063,
+                                        "lng": -0.0796
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "259f4fdd-506c-46fe-ac9d-73950165e234",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48043,
+                                        "lng": -0.11243
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "7c83ed3b-e382-47a6-8148-255e3f4d063d",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.48012,
+                                        "lng": -0.11399
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cc6af935-4601-4c10-99b9-d0ed5ff6c534",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.53844,
+                                        "lng": -0.14677
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "c13af630-b126-4388-a9da-dd8cf7b99f0a",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.51508,
+                                        "lng": -0.08044
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "fb888821-c0cc-4e0d-a7aa-3cc85be25d48",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.51515,
+                                        "lng": -0.08035
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "01eb5406-63da-4739-8d8f-4e77670923dd",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.54356,
+                                        "lng": -0.10324
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "e25ef038-cab6-4f52-831b-999bc8f1c760",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50646,
+                                        "lng": -0.12723
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "10a618e7-905d-4b18-8c69-9ef315b71c6a",
+                "tasks": {
+                    "deliveries": [
+                        {
+                            "places": [
+                                {
+                                    "duration": 300,
+                                    "location": {
+                                        "lat": 51.50644,
+                                        "lng": -0.12722
+                                    }
+                                }
+                            ],
+                            "demand": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "fleet": {
+        "types": [
+            {
+                "profile": "vehicle",
+                "amount": 10,
+                "capacity": [
+                    30
+                ],
+                "costs": {
+                    "distance": 0.0005,
+                    "time": 0.0019444444444444444,
+                    "fixed": 22
+                },
+                "id": "vehicle_1",
+                "shifts": [
+                    {
+                        "start": {
+                            "location": {
+                                "lat": 51.50643,
+                                "lng": -0.12719
+                            },
+                            "time": "2022-12-08T08:00:00-08:00"
+                        },
+                        "end": {
+                            "location": {
+                                "lat": 51.50643,
+                                "lng": -0.12719
+                            },
+                            "time": "2022-12-08T18:00:00-08:00"
+                        }
+                    }
+                ]
+            }
+        ],
+        "profiles": [
+            {
+                "name": "vehicle",
+                "type": "car"
+            }
+        ]
+    }
+}

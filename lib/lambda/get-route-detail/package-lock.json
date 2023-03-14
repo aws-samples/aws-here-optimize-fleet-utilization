@@ -1,0 +1,8 @@
+{
+    "name": "get-route-detail",
+    "version": "0.0.1",
+    "description": "Lambda to retrieve route image for a vehicle.",
+    "main": "index.js",
+    "dependencies": {
+    }    
+}

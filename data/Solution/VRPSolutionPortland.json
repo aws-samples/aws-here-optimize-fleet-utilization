@@ -1,0 +1,1342 @@
+{
+    "statistic": {
+        "cost": 154.78266666666667,
+        "distance": 68727,
+        "duration": 27987,
+        "times": {
+            "driving": 9687,
+            "serving": 18300,
+            "waiting": 0,
+            "break": 0
+        }
+    },
+    "tours": [
+        {
+            "vehicleId": "vehicle_1_3",
+            "typeId": "vehicle_1",
+            "stops": [
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:00:00Z",
+                        "departure": "2022-12-08T16:00:00Z"
+                    },
+                    "load": [
+                        29
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "departure",
+                            "type": "departure"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51209,
+                        "lng": -122.67667
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:00:57Z",
+                        "departure": "2022-12-08T16:05:57Z"
+                    },
+                    "load": [
+                        28
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "9bc6ecc0-d6c2-4b40-be96-71be1dc3f045",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.47016,
+                        "lng": -122.69053
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:13:43Z",
+                        "departure": "2022-12-08T16:18:43Z"
+                    },
+                    "load": [
+                        27
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "33d0a1b9-e7e4-4876-994e-183547b542d4",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46919,
+                        "lng": -122.6916
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:19:14Z",
+                        "departure": "2022-12-08T16:24:14Z"
+                    },
+                    "load": [
+                        26
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "e1c268ad-c043-4239-8ebb-0d44c56f5694",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46874,
+                        "lng": -122.69238
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:24:19Z",
+                        "departure": "2022-12-08T16:29:19Z"
+                    },
+                    "load": [
+                        25
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "0305daf7-ca67-407d-81a1-9ed2741ffd8c",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46785,
+                        "lng": -122.69391
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:29:28Z",
+                        "departure": "2022-12-08T16:34:28Z"
+                    },
+                    "load": [
+                        24
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "5cead43d-2411-4d91-bab4-bda91cbb28ca",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46718,
+                        "lng": -122.69507
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:34:36Z",
+                        "departure": "2022-12-08T16:39:36Z"
+                    },
+                    "load": [
+                        23
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "b55cddb3-60f9-414e-8ae1-c8b1525ecf9e",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46597,
+                        "lng": -122.69668
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:40:16Z",
+                        "departure": "2022-12-08T16:45:16Z"
+                    },
+                    "load": [
+                        22
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "45a89aa8-03b7-498d-9a02-18cbf6d2fa5d",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46538,
+                        "lng": -122.69778
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:46:18Z",
+                        "departure": "2022-12-08T16:51:18Z"
+                    },
+                    "load": [
+                        21
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "8d6e57fb-57b0-4a86-a1b0-78d132524890",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46443,
+                        "lng": -122.69986
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:52:01Z",
+                        "departure": "2022-12-08T16:57:01Z"
+                    },
+                    "load": [
+                        20
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "bd3c64b1-fb72-4637-a5a1-b8e78dae7254",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.46883,
+                        "lng": -122.70866
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:59:26Z",
+                        "departure": "2022-12-08T17:04:26Z"
+                    },
+                    "load": [
+                        19
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "195e20cf-9910-425d-a751-741fbfebe193",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49337,
+                        "lng": -122.63605
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:19:18Z",
+                        "departure": "2022-12-08T17:24:18Z"
+                    },
+                    "load": [
+                        18
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "9f78fdc7-735b-49e3-ba8c-b9b129b7c844",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49337,
+                        "lng": -122.63593
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:24:19Z",
+                        "departure": "2022-12-08T17:29:19Z"
+                    },
+                    "load": [
+                        17
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "cd83c37c-de03-4efc-a5fe-1acf90f38ec2",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49332,
+                        "lng": -122.62381
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:31:37Z",
+                        "departure": "2022-12-08T17:36:37Z"
+                    },
+                    "load": [
+                        16
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "d15f679a-8f4e-4847-8dc2-a47fb8779989",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49073,
+                        "lng": -122.62302
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:37:37Z",
+                        "departure": "2022-12-08T17:42:37Z"
+                    },
+                    "load": [
+                        15
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "e1746d94-c2d4-43f1-8661-c470ffef0822",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49032,
+                        "lng": -122.63731
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:45:01Z",
+                        "departure": "2022-12-08T17:50:01Z"
+                    },
+                    "load": [
+                        14
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "07f6c443-cac6-44d5-a8c9-0559b03d02fc",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49477,
+                        "lng": -122.65658
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:53:59Z",
+                        "departure": "2022-12-08T17:58:59Z"
+                    },
+                    "load": [
+                        13
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "d6c608df-b9eb-487f-b4c9-6dcca0792f51",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49687,
+                        "lng": -122.65368
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:00:43Z",
+                        "departure": "2022-12-08T18:05:43Z"
+                    },
+                    "load": [
+                        12
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "01789cc8-2af3-458c-866c-33ea326c2219",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.5407,
+                        "lng": -122.65014
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:16:33Z",
+                        "departure": "2022-12-08T18:21:33Z"
+                    },
+                    "load": [
+                        11
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "25425f64-a174-41bb-8939-cd8dae18db33",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54823,
+                        "lng": -122.64154
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:24:39Z",
+                        "departure": "2022-12-08T18:29:39Z"
+                    },
+                    "load": [
+                        10
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "a6a8a5e7-a2e7-46f4-b523-a7e9cfc48f12",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54812,
+                        "lng": -122.64109
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:29:49Z",
+                        "departure": "2022-12-08T18:34:49Z"
+                    },
+                    "load": [
+                        9
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "9f2728d7-25de-4683-97a0-c81b8dd1e7b5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54845,
+                        "lng": -122.64109
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:35:09Z",
+                        "departure": "2022-12-08T18:40:09Z"
+                    },
+                    "load": [
+                        8
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "ce0e6b5e-17ed-4cd0-9a40-b11e4a8469ee",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54825,
+                        "lng": -122.65018
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:41:38Z",
+                        "departure": "2022-12-08T18:46:38Z"
+                    },
+                    "load": [
+                        7
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "3ef26da0-6d8e-470d-83b4-9703a508aff2",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54016,
+                        "lng": -122.66159
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:49:46Z",
+                        "departure": "2022-12-08T18:54:46Z"
+                    },
+                    "load": [
+                        6
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "ed7fec3d-b788-463a-8b23-53699a5774da",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.54024,
+                        "lng": -122.66159
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:54:46Z",
+                        "departure": "2022-12-08T18:59:46Z"
+                    },
+                    "load": [
+                        5
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "cc4203b5-94aa-4e8a-8b3b-0d757c0fc42e",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.5387,
+                        "lng": -122.6616
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:59:59Z",
+                        "departure": "2022-12-08T19:04:59Z"
+                    },
+                    "load": [
+                        4
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "32dd14a4-67ad-42c8-b798-cd9ae4162e2f",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53886,
+                        "lng": -122.6613
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T19:05:12Z",
+                        "departure": "2022-12-08T19:10:12Z"
+                    },
+                    "load": [
+                        3
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "b0983fcd-feb4-4777-904e-3a6ba7fc36d0",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53941,
+                        "lng": -122.66159
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T19:10:32Z",
+                        "departure": "2022-12-08T19:15:32Z"
+                    },
+                    "load": [
+                        2
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "bb899113-4b28-4517-87c6-325f055e97d5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.5376,
+                        "lng": -122.66162
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T19:15:49Z",
+                        "departure": "2022-12-08T19:20:49Z"
+                    },
+                    "load": [
+                        1
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "2460b0fa-5ddc-4266-9cfd-cc0cfaccc6c3",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51266,
+                        "lng": -122.67553
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T19:27:37Z",
+                        "departure": "2022-12-08T19:32:37Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "7b68e130-ec10-4b83-9b7f-65d2e6d2c1bd",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T19:33:16Z",
+                        "departure": "2022-12-08T19:33:16Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "arrival",
+                            "type": "arrival"
+                        }
+                    ]
+                }
+            ],
+            "statistic": {
+                "cost": 65.34261111111113,
+                "distance": 36923,
+                "duration": 12796,
+                "times": {
+                    "driving": 4096,
+                    "serving": 8700,
+                    "waiting": 0,
+                    "break": 0
+                }
+            },
+            "shiftIndex": 0
+        },
+        {
+            "vehicleId": "vehicle_1_2",
+            "typeId": "vehicle_1",
+            "stops": [
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:00:00Z",
+                        "departure": "2022-12-08T16:00:00Z"
+                    },
+                    "load": [
+                        22
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "departure",
+                            "type": "departure"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52652,
+                        "lng": -122.67655
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:06:02Z",
+                        "departure": "2022-12-08T16:11:02Z"
+                    },
+                    "load": [
+                        21
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "dd46e91f-d188-467e-b9fe-07d3fbddeae7",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52702,
+                        "lng": -122.67658
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:11:28Z",
+                        "departure": "2022-12-08T16:16:28Z"
+                    },
+                    "load": [
+                        20
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "9b447841-fd70-489c-b6cb-fddcdf25eb3e",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52873,
+                        "lng": -122.67666
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:17:16Z",
+                        "departure": "2022-12-08T16:22:16Z"
+                    },
+                    "load": [
+                        19
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "3ba29454-e4ff-47d5-b65b-a8ecccfe9db5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52863,
+                        "lng": -122.67926
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:25:37Z",
+                        "departure": "2022-12-08T16:30:37Z"
+                    },
+                    "load": [
+                        18
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "2b8c9824-e13b-400e-8510-f3849abdb0e0",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53012,
+                        "lng": -122.68052
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:32:25Z",
+                        "departure": "2022-12-08T16:37:25Z"
+                    },
+                    "load": [
+                        17
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "ef5a4f6b-bb29-4c7a-9b07-3134a5e558d7",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53196,
+                        "lng": -122.68144
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:38:11Z",
+                        "departure": "2022-12-08T16:43:11Z"
+                    },
+                    "load": [
+                        16
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "11efcf72-99d0-46a7-afa9-aa8438702e9f",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53192,
+                        "lng": -122.68044
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:43:48Z",
+                        "departure": "2022-12-08T16:48:48Z"
+                    },
+                    "load": [
+                        15
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "272d64dc-835f-4f5a-8395-0d964781ded6",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.5314,
+                        "lng": -122.68042
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:49:00Z",
+                        "departure": "2022-12-08T16:54:00Z"
+                    },
+                    "load": [
+                        14
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "99eab0bc-a092-464f-bdbe-38425e23ca80",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.53154,
+                        "lng": -122.68162
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:54:26Z",
+                        "departure": "2022-12-08T16:59:26Z"
+                    },
+                    "load": [
+                        13
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "c1970cc5-b9de-4f07-912b-f65e68de85fc",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52297,
+                        "lng": -122.69189
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:04:16Z",
+                        "departure": "2022-12-08T17:09:16Z"
+                    },
+                    "load": [
+                        12
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "a9ac6a52-5269-4258-bafc-055e8b4c6f7f",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52279,
+                        "lng": -122.69019
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:09:54Z",
+                        "departure": "2022-12-08T17:14:54Z"
+                    },
+                    "load": [
+                        11
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "913b310d-532d-4433-b31f-082390918b5d",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52238,
+                        "lng": -122.69013
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:15:05Z",
+                        "departure": "2022-12-08T17:20:05Z"
+                    },
+                    "load": [
+                        10
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "3d96fd4f-95ee-4619-97a8-693fe3ef8ba8",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52072,
+                        "lng": -122.69047
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:21:37Z",
+                        "departure": "2022-12-08T17:26:37Z"
+                    },
+                    "load": [
+                        9
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "9597bd86-4beb-457f-9eb3-2fcae54ef63b",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52112,
+                        "lng": -122.69065
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:26:58Z",
+                        "departure": "2022-12-08T17:31:58Z"
+                    },
+                    "load": [
+                        8
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "e1d51bb9-2fe2-41ae-9e1f-7f610246b9a8",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52028,
+                        "lng": -122.69255
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:33:43Z",
+                        "departure": "2022-12-08T17:38:43Z"
+                    },
+                    "load": [
+                        7
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "23debf60-41e6-4c23-b75b-f33098c5d5cc",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51858,
+                        "lng": -122.69355
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:40:09Z",
+                        "departure": "2022-12-08T17:45:09Z"
+                    },
+                    "load": [
+                        6
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "16b69d72-ae39-43a9-801f-f3431febc6c6",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51829,
+                        "lng": -122.69396
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:45:28Z",
+                        "departure": "2022-12-08T17:50:28Z"
+                    },
+                    "load": [
+                        5
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "8c3140f9-587c-4250-8121-e0749549371d",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.5186,
+                        "lng": -122.70677
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:05:09Z",
+                        "departure": "2022-12-08T18:10:09Z"
+                    },
+                    "load": [
+                        4
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "2cf1054c-da5f-410a-95b0-cb09f56251b5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52324,
+                        "lng": -122.69991
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:17:07Z",
+                        "departure": "2022-12-08T18:22:07Z"
+                    },
+                    "load": [
+                        3
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "4dba8aac-3d1a-4e12-899a-0f47f28854f6",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.52416,
+                        "lng": -122.69988
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:23:19Z",
+                        "departure": "2022-12-08T18:28:19Z"
+                    },
+                    "load": [
+                        2
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "c1673523-5ec4-4eff-b658-e10f1283ffdf",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.50951,
+                        "lng": -122.699
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:32:44Z",
+                        "departure": "2022-12-08T18:37:44Z"
+                    },
+                    "load": [
+                        1
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "11d7a9c2-48f2-4249-a390-0cdc00b42d93",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51183,
+                        "lng": -122.67724
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:45:06Z",
+                        "departure": "2022-12-08T18:50:06Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "533dfd5b-a6f6-4841-8111-8209bc936410",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T18:50:54Z",
+                        "departure": "2022-12-08T18:50:54Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "arrival",
+                            "type": "arrival"
+                        }
+                    ]
+                }
+            ],
+            "statistic": {
+                "cost": 52.16933333333333,
+                "distance": 20462,
+                "duration": 10254,
+                "times": {
+                    "driving": 3654,
+                    "serving": 6600,
+                    "waiting": 0,
+                    "break": 0
+                }
+            },
+            "shiftIndex": 0
+        },
+        {
+            "vehicleId": "vehicle_1_8",
+            "typeId": "vehicle_1",
+            "stops": [
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:00:00Z",
+                        "departure": "2022-12-08T16:00:00Z"
+                    },
+                    "load": [
+                        10
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "departure",
+                            "type": "departure"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49345,
+                        "lng": -122.66948
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:05:40Z",
+                        "departure": "2022-12-08T16:10:40Z"
+                    },
+                    "load": [
+                        9
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "38f97ce0-124b-416c-ae31-541f2e731ccf",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49147,
+                        "lng": -122.67116
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:12:57Z",
+                        "departure": "2022-12-08T16:17:57Z"
+                    },
+                    "load": [
+                        8
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "cb595005-8771-4c00-be5e-091b018f05cc",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.48983,
+                        "lng": -122.67238
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:19:11Z",
+                        "departure": "2022-12-08T16:24:11Z"
+                    },
+                    "load": [
+                        7
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "c88273a6-9e63-4eab-9e87-f7004aa6e0a3",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.48453,
+                        "lng": -122.6749
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:25:33Z",
+                        "departure": "2022-12-08T16:30:33Z"
+                    },
+                    "load": [
+                        6
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "f9c57a3b-b385-48d4-aa4b-55f07c2a71b5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.48522,
+                        "lng": -122.6768
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:31:18Z",
+                        "departure": "2022-12-08T16:36:18Z"
+                    },
+                    "load": [
+                        5
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "815728a8-bf6a-4999-8be2-2c7969d0f679",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49106,
+                        "lng": -122.67625
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:37:47Z",
+                        "departure": "2022-12-08T16:42:47Z"
+                    },
+                    "load": [
+                        4
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "44634926-2ac8-47ba-ba1b-6d9b8eac192c",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49878,
+                        "lng": -122.69064
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:51:27Z",
+                        "departure": "2022-12-08T16:56:27Z"
+                    },
+                    "load": [
+                        3
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "dacfc5e7-c13e-4e64-bb90-85609f7f4f08",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49908,
+                        "lng": -122.68974
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T16:56:51Z",
+                        "departure": "2022-12-08T17:01:51Z"
+                    },
+                    "load": [
+                        2
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "5e7aca57-c8bb-4c21-82c3-19ae6548dd3f",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.49969,
+                        "lng": -122.68518
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:03:07Z",
+                        "departure": "2022-12-08T17:08:07Z"
+                    },
+                    "load": [
+                        1
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "2ebc24e9-c989-4c66-9b03-7a180f05e3fc",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.50577,
+                        "lng": -122.68201
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:14:01Z",
+                        "departure": "2022-12-08T17:19:01Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "d073490e-aa90-43ea-87ef-5146ff4bf3d5",
+                            "type": "delivery"
+                        }
+                    ]
+                },
+                {
+                    "location": {
+                        "lat": 45.51179,
+                        "lng": -122.67563
+                    },
+                    "time": {
+                        "arrival": "2022-12-08T17:22:17Z",
+                        "departure": "2022-12-08T17:22:17Z"
+                    },
+                    "load": [
+                        0
+                    ],
+                    "activities": [
+                        {
+                            "jobId": "arrival",
+                            "type": "arrival"
+                        }
+                    ]
+                }
+            ],
+            "statistic": {
+                "cost": 37.270722222222226,
+                "distance": 11342,
+                "duration": 4937,
+                "times": {
+                    "driving": 1937,
+                    "serving": 3000,
+                    "waiting": 0,
+                    "break": 0
+                }
+            },
+            "shiftIndex": 0
+        }
+    ]
+}
