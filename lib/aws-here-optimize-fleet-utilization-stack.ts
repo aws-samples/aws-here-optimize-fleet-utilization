@@ -30,6 +30,7 @@ export class AwsHereOptimizeFleetUtilizationStack extends Stack {
           allowedHeaders: ['*'],
         },
       ],
+      versioned : true
     });
     
     // S3 bucket containing routing solutions, corresponding to above routing problems, in json format
@@ -49,6 +50,7 @@ export class AwsHereOptimizeFleetUtilizationStack extends Stack {
           allowedHeaders: ['*'],
         },
       ],
+      versioned : true
     });
     
     const DDB_TABLE_NAME = 'AWS-HERE-FleetPlanning';
